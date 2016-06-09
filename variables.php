@@ -43,6 +43,22 @@ if ($n < $j) {
     
 </p>
 
+<?php
+
+$cost = 3;
+$n = 0; // quantity
+
+while($n <= 100) {
+    echo  '<p>' . $n . ' paintbrushes cost $' . $cost * $n . '</p>';
+    $n = $n + 10;
+}
+
+
+
+
+
+?>
+
 
 
 
