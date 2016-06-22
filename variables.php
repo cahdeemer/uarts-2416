@@ -129,7 +129,34 @@ while ($n > 0 );
     echo "</table>";
         
 ?>
-        
+
+<h3>Class 4</h3>
+
+<?php 
+
+    $myName = fixNames("CHRISTINA", "DeEMER");
+    echo $myName[0] . " " . $myName[1];
+    
+    function fixNames($firstName, $lastName) {
+    $name = array(ucfirst(strtolower($firstName)), ucfirst(strtolower($lastName)));
+    
+    return $name;
+    
+    }
+
+?>
+
+
+
+<?php
+
+    function calculateArea($length, $width) {
+        echo "<p>A recentagle with a length of " . $length . " and a width of " . $width . " has an area of " . $length * $width . '</p>';
+    }
+    
+    $myRectange = calculateArea(3, 4);
+    echo $myRectangle;
+?>
 
 
 
