@@ -158,6 +158,30 @@ while ($n > 0 );
     echo $myRectangle;
 ?>
 
+<?php 
+
+    $states = array("New Jersey", "New York", "Pennsylvania");
+    $statesCount = count($states);
+    
+    echo '<ul>';
+    for ($i = 0;$i<$statesCount; $i++) {
+        $eisnowx = str_replace("e", "x", $states);
+        echo '<li>' . $eisnowx[$i] . '</li>';
+    }
+    echo '</ul>'; 
+
+
+?>
+
+<?php
+    $herbs = array('basil', 'dill', 'oregano', 'tarragon', 'thyme');
+    
+    $comma_separated = implode(', ', $herbs);
+    
+    echo '<p>Herbs: ' . $comma_separated . '</p>';
+
+
+?>
 
 
 
