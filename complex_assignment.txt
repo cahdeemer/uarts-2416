@@ -1,0 +1,6 @@
+linda, hamilton, 58, burnsville, minnesota
+john, hamilton, 58, burnsville, minnesota
+john, hamilton 40, san francisco, california
+christina, deemer, 38, secane, pennsylvania
+bryan, hamilton, 36, burnsville, minnesota
+
