@@ -1,0 +1,22 @@
+
+nav ul {
+    padding-left: 0px;
+}
+
+nav ul li{
+   display: inline-block;
+   padding: 5px;
+}
+
+h2 {
+    display: inline-block;
+}
+
+.top {
+    display: inline;
+    font-style: italic;
+}
+
+.top a {
+    color: gray;
+}
